@@ -1,0 +1,33 @@
+
+1. What are the basic rules of XML you applied in this lab?
+
+Some basic XML rules you likely applied include:
+
+XML must have a single root element that encloses all other elements.
+Tags must be properly opened and closed (e.g., `<name></name>`).
+Tags are case-sensitive, so `<Item>` is different from `<item>`.
+Elements must be properly nested — tags cannot overlap.
+Attribute values must be quoted (e.g., `<book id="1">`).
+XML must be well-formed, meaning it follows all structural rules so a parser can read it.
+
+
+2. Why does XML need a single root element?
+
+XML needs a single root element because:
+
+ It provides a structured, hierarchical organization for all the data.
+ Parsers require one root so they know where the document begins and ends.
+ It ensures the entire content is treated as one complete, valid document.
+ Without a root, XML becomes ambiguous and cannot be processed correctly.
+
+
+3. How does XML ensure interoperability?
+
+XML ensures interoperability through:
+
+Platform-independence — XML is plain text, readable by any system.
+Unicode support, allowing consistent representation of characters across languages.
+Self-describing tags, which make data structure understandable without needing special software.
+Standardized syntax, so different applications can exchange data reliably.
+Widespread parser support, meaning almost all programming languages and systems can read XML.
+
